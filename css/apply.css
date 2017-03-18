@@ -1,0 +1,124 @@
+.map-wrapper, .preload-wrapper { 
+	margin: 0 auto;
+	width: 70%;  
+	height: 350px; 
+}
+
+body {
+	background-color: #a5a7a8;
+}
+
+
+button { 
+	cursor: pointer; 
+	margin-left: 12px;
+	border: 1px solid #21d2ea;
+	text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 8px;
+    background-color: #21d2ea ;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    color: #981b1e;
+
+ }
+
+ #logo {
+ 	margin: 0 auto;
+ 	text-align: center;
+ }
+
+ .cText {
+ 	margin: 0 auto;
+ 	text-align: center;
+ 	color: #981b1e;
+ }
+
+.address { 
+	width: 350px;
+ }
+ 
+#info {
+ 	margin: 0 auto;
+ 	text-align: center;
+ 	margin-top: 10px;
+ 	margin-bottom: 10px;
+ 	color: #981b1e;
+ }
+
+ .geocode {
+ 	margin: 0 auto;
+ 	text-align: center;
+ }
+
+ #mapDirections { 
+ 	margin: 0 auto;
+ 	text-align: center;
+ 	margin-bottom: 15px;
+  }
+
+.preload-wrapper { 
+	position: absolute;
+	background-color: rgba(255, 255, 255, 0.85);
+	border: 2px solid #ccc;
+	z-index: 50;
+	width: 70%;
+	border-radius: 8px;
+	left: 0;
+	right: 0;
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 1em;
+	color: #CCC;
+
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-style: italic;
+
+	pointer-events: none;
+	transition: opacity 0.7s ease;
+}
+
+.hide-preloader { opacity: 0; }
+
+.preload-wrapper i { margin: 100px 0 20px; font-size: 2.2em; }
+
+.preload-wrapper span { display: block; }
+
+#footer {
+	margin: 0 auto;
+	text-align: center;
+	background-color: #828282;
+	color: #981b1e;
+}
+
+
+@media screen and (max-width: 1170px) {
+	.map-wrapper, .preload-wrapper {
+	margin: 0 auto;
+	width: 80%;  
+	height: 450px;  
+	 }
+
+	.cText {
+ 	margin: 0 auto;
+ 	text-align: center;
+ 	width: 68%;
+ }
+}
+
+
+@media screen and (min-width: 200px) {
+	.map-wrapper, .preload-wrapper {
+	margin: 0 auto;
+	width: 60%;  
+	height: 250px;  
+	 }
+
+	.cText {
+ 	margin: 0 auto;
+ 	text-align: center;
+ 	width: 75%;
+ }
+
+}

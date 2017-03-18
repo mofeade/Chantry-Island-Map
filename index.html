@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Chantry Islands Map</title>
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/apply.css">
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA4N2udv7T_s3JW0aOiRpgvZ_8Q91r0OyA"></script>
+</head>
+<body>
+	<div id="logo">
+		<img src="images/CI_logo.png">
+	</div>
+
+
+	<div class="cText"><hr>
+		<p> Chantry Island is a small, 81-hectare (200-acre) island in Lake Huron, south of the mouth of the Saugeen River and approximately a mile off the shores of the town of Southampton, Ontario. The island is one the Canadian Wildlife Service’s migratory bird sanctuaries, designated in 1957, and home to gulls and great blue herons, as well as being an important migratory stop for birds traveling to northern nesting sites.</p>
+
+		<p>It is the location of one of the six Imperial Towers, early lighthouses built by the Canadian government. The Chantry Light was built in 1859 and is still in use today. Tours to the lighthouse have been a popular addition to the local tourist attractions. Both island and lighthouse are standard inclusions in paintings and photographs of the sunsets off Southampton’s beaches.</p> <hr>
+
+	</div>
+
+
+	<h4 class="geocode-header" id="info">Using the Geocode API</h4>
+
+	<div id="mapDirections">
+	<input type="text" class="address">
+	<button class="geocode">Find Route</button>
+	</div>
+
+	<div class="preload-wrapper">
+		<i class="fa fa-spinner fa-spin"></i>
+		<span>Map loading...</span>
+	</div>
+
+	<div class="map-wrapper"></div>
+
+	<div id="footer">
+		<p>&copy 2017 Chantry Islands </p>
+	</div>
+
+	
+	
+<script src="js/main.js" ></script>	
+</body>
+</html>
